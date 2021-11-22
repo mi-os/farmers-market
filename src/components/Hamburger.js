@@ -5,11 +5,10 @@ import {
   ModalContent,
   ModalBody,
   ModalCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react"
-import { useDisclosure } from "@chakra-ui/react"
 import { MenuList } from "./MenuList"
 
-// export default function Hamburger() {
 export const Hamburger = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (

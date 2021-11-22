@@ -6,5 +6,5 @@ export const SectionTitle = ({ mainTitle, subTitle }) => {
       <Heading as="h1">{mainTitle}</Heading>
       <Text>{subTitle}</Text>
     </Box>
-  );
+  )
 }

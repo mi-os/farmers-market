@@ -1,4 +1,4 @@
-import { useMediaQuery, Flex } from "@chakra-ui/react";
+import { useMediaQuery } from "@chakra-ui/react";
 import { Hamburger } from './Hamburger';
 import { VerticalMenu } from "./VerticalMenu";
 

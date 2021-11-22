@@ -30,7 +30,7 @@ export const Header = () => {
       <CartIcon />
       <Flex>
         <Center>
-          <Logo h="10vmin" />
+          <Logo />
         </Center>
       </Flex>
       <Flex>
@@ -39,5 +39,5 @@ export const Header = () => {
         </Center>
       </Flex>
     </Flex>
-  );
+  )
 }

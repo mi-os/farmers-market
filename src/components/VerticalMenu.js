@@ -6,5 +6,5 @@ export const VerticalMenu = () => {
     <Flex>
       <MenuList writingMode="Vertical" textAlign="left" />
     </Flex>
-  );
+  )
 }
